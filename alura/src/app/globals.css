@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@font-face {
+  font-family: fa;
+  src: url(/alura-font.woff2);
+}
+
+body{
+  /* background-color: #111; */
+}
+*{
+  /* color: white; */
+}
