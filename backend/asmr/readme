@@ -1,0 +1,21 @@
+# ASMR Personalized Support API
+
+## Overview
+This project provides a **FastAPI backend** that delivers personalized ASMR video suggestions and motivational quotes based on a user’s text input. It supports **automatic gender detection** using both **profile information** and **text analysis**.  
+
+The API returns **HTML with embedded YouTube videos**, along with the detected gender and a motivational quote.
+
+---
+
+## Features
+- Automatic gender detection:
+  - Uses `profile_gender` if available
+  - Falls back to zero-shot NLP classification from user text
+- Curated ASMR videos for Boyfriend/Girlfriend roleplay categories
+- Journal prompt for self-reflection
+- Easy FastAPI integration with any frontend
+
+---
+
+## Folder Structure
+
