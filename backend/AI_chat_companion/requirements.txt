@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+chromadb
+huggingface-hub
+google-generativeai
+pydantic
+python-multipart
+requests
+transformers
